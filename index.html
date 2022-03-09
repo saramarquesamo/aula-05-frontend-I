@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,20 +8,26 @@
     <title> Aula 5 Listas</title>
     <!--Jonathas, Rafael Alves, Ricardo Tani, Alan J Goulart, Sara Marques-->
 </head>
-<body style="background-color: rgb(255, 161, 185); font-family: 'Arial', Courier, monospace; padding-right: 100px; padding-left: 100px ">
-        <header>
-            <nav>
-                <!--Menu de navegação-->
-            </nav>
-        </header>
-        <main>
-            <h1>Lista de séries tops</h1>
-            <h2>As séries mais tops</h2>
 
-            <div style="float: left;">
-                <img height="200" src="https://th.bing.com/th/id/R.46284f2db16b8d5326582fe2af1df7f9?rik=e5Q5dhLfVQRKhQ&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2farresteddevelopment%2fimages%2f6%2f6e%2fNetflix_Logo.jpg%2frevision%2flatest%3fcb%3d20120105151323&ehk=pUpQ7MkkCBHOYcxHQG%2b9gv03TUBHbLZcuKlwJx3ICNM%3d&risl=&pid=ImgRaw&r=0" alt="logo netflix"/>
+<body class="bodyBackground">
+    <header>
+        <nav>
+            <!--Menu de navegação-->
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h1>Lista de séries tops 👌🏾👌🏾👌🏾👌🏾</h1>
+            <h2>🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸As séries mais tops 🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸</h2>
+        </div>
+        <div class="divInlineFlex">
+            <div>
+                <img height="200"
+                width="450"
+                    src="https://th.bing.com/th/id/R.46284f2db16b8d5326582fe2af1df7f9?rik=e5Q5dhLfVQRKhQ&riu=http%3a%2f%2fvignette3.wikia.nocookie.net%2farresteddevelopment%2fimages%2f6%2f6e%2fNetflix_Logo.jpg%2frevision%2flatest%3fcb%3d20120105151323&ehk=pUpQ7MkkCBHOYcxHQG%2b9gv03TUBHbLZcuKlwJx3ICNM%3d&risl=&pid=ImgRaw&r=0"
+                    alt="logo netflix" />
                 <ul>
-                    <li >Brooklyn 99</li>
+                    <li>Brooklyn 99</li>
                     <button name="button">Assistir</button>
                     <li>Stranger Things</li>
                     <button name="button">Assistir</button>
@@ -29,50 +36,84 @@
                 </ul>
             </div>
 
-            <div style="float: right;">
-                <img height="225"  src="https://th.bing.com/th/id/R.bb05bf3e64f40881b27b82cf229e9ea7?rik=knMErIQ41niCFA&riu=http%3a%2f%2fandroidtv.com.mx%2fwp-content%2fuploads%2f2020%2f11%2fAmazon-Prime-Video-logo.jpg&ehk=1X%2fn18RaNVF2uQKnSB2%2f5i1%2fdUM3wbGSHf%2bFV71tWNM%3d&risl=&pid=ImgRaw&r=0" alt="logo netflix"/>
+            <div class="divImagePadding">
+                <img height="200"
+                width="450"
+                    src="https://th.bing.com/th/id/R.bb05bf3e64f40881b27b82cf229e9ea7?rik=knMErIQ41niCFA&riu=http%3a%2f%2fandroidtv.com.mx%2fwp-content%2fuploads%2f2020%2f11%2fAmazon-Prime-Video-logo.jpg&ehk=1X%2fn18RaNVF2uQKnSB2%2f5i1%2fdUM3wbGSHf%2bFV71tWNM%3d&risl=&pid=ImgRaw&r=0"
+                    alt="logo netflix" />
                 <ol>
-                    <li> <b>Brooklyn 99</b>
+                    <li> <b>Brooklyn 99 ⭐️⭐️</b>
                         <ul>
                             <li><i>Primeira temporada</i> </li>
                             <li><i>Segunda temporada</i></li>
                             <li><i>Terceira temporada</i> </li>
                             <li><i>Quarta temporada</i> </li>
-                        </ul> 
+                        </ul>
                     </li>
                     <br>
-                    <li><b>Stranger Things</b>
+                    <li><b>Stranger Things ⭐️⭐️⭐️⭐️⭐️</b>
                         <ul>
                             <li><i>Primeira temporada</i> </li>
                             <li><i>Segunda temporada</i></li>
                             <li><i>Terceira temporada</i> </li>
                             <li><i>Quarta temporada</i> </li>
-                        </ul> 
+                        </ul>
                     </li>
                     <br>
-                    <li><b>BoJack Horseman</b>
+                    <li><b>BoJack Horseman ⭐️⭐️⭐️</b>
                         <ul>
                             <li><i>Primeira temporada</i> </li>
                             <li><i>Segunda temporada</i></li>
                             <li><i>Terceira temporada</i> </li>
                             <li><i>Quarta temporada</i> </li>
-                        </ul>       
+                        </ul>
                     </li>
                 </ol>
-                <h1>Selecionar série:</h1>
-                <input list="browsers" />
+                <h1>Selecionar opção:</h1>
+                <input class="inputDataList" list="browsers" />
                 <datalist id="browsers">
-                  <option value="Série 1">
-                  <option value="Serie 2">
-                  <option value="Série 3">
+                    <option value="Série 1">
+                    <option value="Serie 2">
+                    <option value="Série 3">
+                </datalist>
+                <button>
+                    Assistir
+                </button>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>     
-        </main>
-        <footer>    
-        </footer>  
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <p>
+                👱🏻 Jonathas
+                👱🏻 Rafael Alves
+                👱🏻 Ricardo Tani
+                👱🏻 Alan J Goulart
+                🧚🏻‍♀️ Sara Marques
+            </p>
+        </div>
+    </footer>
 </body>
+<style>
+    .bodyBackground {
+        background-color: rgb(255, 161, 185);
+        font-family: 'Arial', Courier, monospace;
+        padding-right: 100px;
+        padding-left: 100px
+    }
+
+    .divInlineFlex {
+        display: inline-flex
+    }
+
+    .divImagePadding {
+        padding-left: 25%;
+    }
+
+    .inputDataList {
+        width: 260px;
+    }
+</style>
+
 </html>
